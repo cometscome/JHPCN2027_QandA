@@ -7,13 +7,21 @@
 Web上の資料を開けるChatGPTに、次の文をコピーしてください。最後の一行を自分の質問に替えられます。インストールは不要です。
 
 ```text
-次のスキルを開き、その手順に従って、JHPCN 2027年度の公式資料を確認して答えてください。
+次のスキルに従ってください。公募条件・金額・計算資源に関する回答の根拠は、下記の募集要項PDF（別紙を含む）だけに限定してください。
 https://raw.githubusercontent.com/cometscome/JHPCN2027_QandA/main/skills/jhpcn-call-qa/SKILL.md
+募集要項PDF：https://jhpcn-kyoten.itc.u-tokyo.ac.jp/files/pdf/Call_for_Proposal_2027J_ver.1.pdf
+
+PDFを直接開き、根拠となる節・ページを示してください。申込書の記入方法に限り、スキルに記載されたWord・Excelも参照してください。外部検索や他の公募の資料で補わず、記載がなければ「指定の資料では確認できません」と答えてください。PDFを開けなければ添付を求めてください。
 
 質問：HPCI資源と非HPCI資源を併用します。どの応募手順に従えばよいですか？
 ```
 
 同じ会話で「その場合、どの申込書をどこに提出しますか？」と続けられます。スキルのリンクを開けない環境では[スキル本文](skills/jhpcn-call-qa/SKILL.md)をコピーしてください。様式の中身を直接読めない場合は、下記のWordまたはExcelをチャットに添付してください。
+
+## 資源量についての回答例
+
+**採択されるとGPUリソースはいくら分くらい提供されますか？**  
+募集要項には、採択1課題あたりのGPUの一律提供額は示されていません。申請できる資源全体の金額換算上限は、単独拠点（mdxを除く）のみで300万円、mdxのみで100万円、複数拠点で合計360万円です。複数拠点でmdxを併用する場合、mdx分は100万円と「360万円から他拠点分を引いた残額」の小さい方が上限です。採択後に提供される資源量は、予算により申請量から大幅に削減される場合があります。[募集要項 第9.1節（冊子pp.13–14）](https://jhpcn-kyoten.itc.u-tokyo.ac.jp/files/pdf/Call_for_Proposal_2027J_ver.1.pdf#page=17)・[第9.3節（冊子p.15）](https://jhpcn-kyoten.itc.u-tokyo.ac.jp/files/pdf/Call_for_Proposal_2027J_ver.1.pdf#page=19)
 
 ## 申込書についての質問例
 
