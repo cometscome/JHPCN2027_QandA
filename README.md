@@ -12,10 +12,10 @@
 
 ## ChatGPTで質問する
 
-チャットにこのリポジトリのURLを貼り、続けて質問を書いてください。
+チャットに[公開ページ](https://cometscome.github.io/JHPCN2027_QandA/)のURLを貼り、続けて質問を書いてください。
 
 ```text
-https://github.com/cometscome/JHPCN2027_QandA
+https://cometscome.github.io/JHPCN2027_QandA/
 リソースはいくら分提供されますか？
 ```
 
