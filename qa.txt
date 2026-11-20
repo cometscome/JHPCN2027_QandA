@@ -1,0 +1,4 @@
+---
+layout: null
+---
+{% include_relative skills/jhpcn-call-qa/SKILL.md %}

@@ -2,7 +2,7 @@
 
 ## AIが回答する際のルール
 
-最初に[スキル本文（SKILL.md）](https://raw.githubusercontent.com/cometscome/JHPCN2027_QandA/main/skills/jhpcn-call-qa/SKILL.md)を最後まで読んでください。**全文を読めなかった場合は、質問に答えず、検索もせず、次の一文だけを返してください。**
+最初に[質問用のスキル全文](https://cometscome.github.io/JHPCN2027_QandA/qa.txt)を最後まで読んでください。**全文を読めなかった場合は、質問に答えず、検索もせず、次の一文だけを返してください。**
 
 > スキル本文が読めませんでした、インターネットアクセスが可能なAIを使ってください。
 
@@ -12,10 +12,10 @@
 
 ## ChatGPTで質問する
 
-チャットに[公開ページ](https://cometscome.github.io/JHPCN2027_QandA/)のURLを貼り、続けて質問を書いてください。
+次の2行をチャットに貼り、2行目を自分の質問に替えてください。1行目はスキル全文を直接読めるURLです。
 
 ```text
-https://cometscome.github.io/JHPCN2027_QandA/
+https://cometscome.github.io/JHPCN2027_QandA/qa.txt
 リソースはいくら分提供されますか？
 ```
 
@@ -45,4 +45,4 @@ GPUを利用する場合も、上限はその課題で申請する資源全体�
 - [課題申込書（1）（日本語、Word）](https://jhpcn-kyoten.itc.u-tokyo.ac.jp/files/docx/Application_Form_1_FY2027.docx)
 - [課題申込書（2）（日英・第1版、Excel）](https://jhpcn-kyoten.itc.u-tokyo.ac.jp/files/xlsx/Application_Form_2_FY2027_ver.1.xlsx)
 
-このスキルは上記の版を参照します。提出時に使う様式の更新状況は[JHPCN公式公募ページ](https://jhpcn.itc.u-tokyo.ac.jp/joint-research/cfp/)で確認してください。
+このスキルは上記の版を参照します。

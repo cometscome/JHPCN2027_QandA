@@ -30,7 +30,7 @@ layout: null
 <body>
 <main>
 {% capture readme %}{% include_relative README.md %}{% endcapture %}
-{{ readme | replace: 'https://raw.githubusercontent.com/cometscome/JHPCN2027_QandA/main/skills/jhpcn-call-qa/SKILL.md', '#skill' | replace: 'https://github.com/cometscome/JHPCN2027_QandA', 'https://cometscome.github.io/JHPCN2027_QandA/' | replace: 'このリポジトリのURL', 'このページのURL' | markdownify }}
+{{ readme | markdownify }}
 <section id="skill" aria-label="スキル本文">
 {% capture skill %}{% include_relative skills/jhpcn-call-qa/SKILL.md %}{% endcapture %}
 {{ skill | split: '---' | last | replace_first: '# JHPCN 2027年度 公募・申込書Q&A', '## スキル本文' | markdownify }}
